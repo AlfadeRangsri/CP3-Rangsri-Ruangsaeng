@@ -1,0 +1,6 @@
+x = float(input("First Digits : "))
+y = float(input("Second Digits : "))
+print(x, "+", y, "=", x+y)
+print(x, "-", y, "=", x-y)
+print(x, "*", y, "=", x*y)
+print(x, "/", y, "=", x/y)
