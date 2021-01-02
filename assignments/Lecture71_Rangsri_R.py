@@ -12,6 +12,7 @@ while True:
 
 def showBill():
     total = 0
+    print("----- Street Food -----")
     for number in range(len(menuList)):
         print(menuList[number], priceList[number])
         total += int(priceList[number])
